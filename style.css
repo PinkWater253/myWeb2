@@ -1,0 +1,158 @@
+
+
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: url(images/Bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+span {
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    color: #eee;
+    font-family: cursive;
+}
+:root{
+    --success-color: #2691d9;
+    --errol-color: #e74c3c;
+}
+
+.container {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    border: 1px solid #ccc;
+    background: url(images/Bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    min-height: 500px;
+    width: 650px;
+    margin:200px auto;
+}
+.social-container {
+    margin: 20px 0;
+    color: #DDDDDD;
+}
+.social-container a {
+    border: 1px solid #DDDDDD;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+
+h1 {
+    display: flex;
+    padding: none;
+    margin: none;
+    text-align: center;
+    color: #eee;
+    font-family: cursive;
+}
+
+label {
+    display: flex;
+    margin: 3px auto;
+    color: #eee;
+    text-align:left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px 3px;
+    border: transparent;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button.ghost {
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
+button.other{
+    border: none;
+    background-color: transparent;
+    padding: 0 ;
+    margin: 0 ;
+    color: #3d70cf;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+button.eye{
+    background-color: transparent;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.eye-close i{
+    background-color: transparent;
+    width: 30px;
+    height: auto;
+    position: absolute;
+    left: 61%;
+    top: 83%;
+    display: none;
+}
+
+.eye-open i{
+    background-color: transparent;
+    width: 30px;
+    height: auto;
+    position: absolute;
+    left: 61%;
+    top: 83%;
+}
+
+.eye-open2 i{
+    background-color: transparent;
+    width: 30px;
+    height: auto;
+    position: absolute;
+    left: 61%;
+    top: 75.90%;
+}
+
+.eye-open3 i{
+    background-color: transparent;
+    width: 30px;
+    height: auto;
+    position: absolute;
+    left: 61%;
+    top: 84.10%;
+}
+
+
+
+
+
